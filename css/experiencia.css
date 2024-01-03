@@ -36,7 +36,8 @@
   grid-template-columns: 1fr 1fr;
   padding: 10px 20px;
   background: var(--c1, #f5f5f5);
-  gap: 20px;
+  padding: 26px;
+  gap: 10px;
   border-radius: 5px;
   position: relative;
 }
@@ -100,7 +101,7 @@
 }
 .primeira-coluna a {
   padding: 5px 10px;
-  border-radius: 7px;
+  border-radius: 4px;
   background-color: #fff;
   text-transform: uppercase;
 }

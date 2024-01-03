@@ -101,11 +101,7 @@
   position: relative;
 }
 
-.cursos-e-idiomas1 {
-  display: grid;
-  gap: 1rem;
-}
-.cursos-e-idiomas2 {
+.cursos-e-idiomas {
   display: grid;
   gap: 1rem;
 }
@@ -129,25 +125,15 @@ span {
 .cursos a:hover {
   color: #b6f829;
 }
-.cursos-e-idiomas1::before {
-  background-image: url(../img/cursos.svg);
-  display: block;
-  content: "";
-  width: 24px;
-  height: 24px;
-  position: absolute;
-  left: -36px;
-  top: -4px;
-}
-.cursos-e-idiomas2::before {
+.cursos-e-idiomas::before {
   background-image: url(../img/idiomas.svg);
   display: block;
   content: "";
   width: 24px;
   height: 24px;
   position: absolute;
-  left: -36px;
-  top: 150px;
+  left: 75px;
+  top: 0px;
 }
 .idiomas {
   display: flex;
@@ -187,16 +173,11 @@ span {
   .formacao-formacoes {
     justify-content: center;
   }
-  .cursos-e-idiomas1,
-  .cursos-e-idiomas2 {
+  .cursos-e-idiomas {
     gap: 20px;
   }
-  .cursos-e-idiomas1::before {
+  .cursos-e-idiomas {
     display: grid;
-    position: initial;
-    margin-bottom: 10px;
-  }
-  .cursos-e-idiomas2::before {
     position: initial;
     margin-bottom: 10px;
   }
@@ -220,7 +201,7 @@ span {
     height: 50px;
     background: url("../img/detalhe.svg") no-repeat center;
     position: absolute;
-    bottom: -50px;
-    left: 270px;
+    bottom: -35px;
+    left: 150px;
   }
 }

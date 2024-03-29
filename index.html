@@ -2,6 +2,9 @@
 <html lang="pt-br">
 
 <head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Antic+Didone&family=Poppins:wght@400;600&family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&family=Open+Sans&display=swap" rel="stylesheet">
@@ -142,6 +145,28 @@
           </div>
         </div>
 
+      </div>
+  </section>
+  <section class="contato" id="contato">
+    <div class="contato-container">
+      <h2 class="contato-subtitulo">Contato</h2>
+      <div class="contato-descricao" style="background-color:#F7f7f7; border-radius: 5px;">
+        <div class="contato-formulario">
+          <form class="form" action="enviar.php" method="post">
+            <div class="col-2">
+              <label for="Nome" style="color: black; ">Nome</label>
+              <input type="text" style="background-color: #f9f2f2;" name="nome" id="nome" placeholder="Seu nome" />
+              <label for="telefone" style="color: black;" style="color: black;">Telefone</label>
+              <input type="text" style="background-color: #f9f2f2;" name="telefone" id="telefone" placeholder="Digite o número de telefone" />
+              <label for="email" style="color: black;">Email</label>
+              <input type="email" style="background-color: #f9f2f2;" name="email" id="email" placeholder="Digite o número de email" required />
+              <label for="mensagem" style="color: black;" style="color: black;">Mensagem</label>
+              <textarea rows="5" style="background-color: #f9f2f2;" style="color: black;" name="mensagem" id="mensagem" placeholder="O que você precisa?"></textarea>
+            </div>
+
+            <button class="botao-enviar col-2" type="submit">Enviar</button>
+          </form>
+        </div>
       </div>
   </section>
 

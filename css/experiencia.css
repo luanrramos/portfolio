@@ -60,7 +60,7 @@
 .empresa-ano1 {
   position: absolute;
   top: 22px;
-  left: -80px;
+  left: -5%;
   color: #525252;
   font-size: 0.875rem;
 
@@ -70,7 +70,7 @@
 .empresa-ano2 {
   position: absolute;
   top: 22px;
-  left: -30px;
+  left: -5%;
   color: #525252;
   font-size: 0.875rem;
   margin-left: -10px;
@@ -100,7 +100,7 @@
   place-items: center;
 }
 .primeira-coluna a {
-  padding: 5px 10px;
+  padding: 1rem;
   border-radius: 4px;
   background-color: #fff;
   text-transform: uppercase;
@@ -140,6 +140,11 @@
 }
 #h3:hover {
   background-color: #cfcfcf;
+}
+
+.ver-projeto {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
 }
 @media (max-width: 1000px) {
   .experiencia {
